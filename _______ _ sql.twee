@@ -1,0 +1,655 @@
+:: StoryTitle
+котенок и sql
+
+
+:: StoryData
+{
+  "ifid": "D7980034-8A7F-4682-B5CF-3E8B8BAD7B5D",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "начало",
+  "zoom": 1
+}
+
+
+:: DBbrowser {"position":"425,525","size":"100,100"}
+<img
+src=https://ru.yougile.com/user-data/7a9d23f2-3b3b-48cf-9a54-25f5d7e8801d/IMG_8355.JPG?previews[]=-256-preview@256x234 height=300>
+<div class="transparent-box">
+(text-colour:black)[
+patrik
+---
+Установка и настройка DB Browser for SQLite
+Установка
+
+	1.	Загрузите программу:
+	•	Перейдите на официальный сайт и выберите версию для вашей операционной системы (Windows, macOS, Linux).
+	2.	Установите:
+	•	Для Linux: Воспользуйтесь менеджером пакетов вашего дистрибутива (например, sudo apt install sqlitebrowser для Ubuntu).
+Настройка:
+	•	После установки откройте приложение. Оно не требует сложной настройки, сразу доступно для работы с SQLite базами данных.
+	•	Чтобы начать работать, нажмите “Open Database” для открытия существующей базы или “New Database” для создания новой.
+[[обратно|установка и настройка]]]
+</div>
+
+
+
+
+:: Liberoffice Base? {"position":"875,275","size":"100,100"}
+</style>
+<img
+src=https://ru.yougile.com/user-data/7a9d23f2-3b3b-48cf-9a54-25f5d7e8801d/IMG_8355.JPG?previews[]=-256-preview@256x234 height=300>
+</div>
+<div class="transparent-box">
+(text-colour:black)[
+patrik
+---
+[[определение]]
+[[как в нем Работать?]]
+[[обратно|start]]
+[[сравненя]]]
+</div>
+
+
+:: SQLDBBrowser? {"position":"700,425","size":"100,100"}
+</style>
+<img
+src=https://ru.yougile.com/user-data/7a9d23f2-3b3b-48cf-9a54-25f5d7e8801d/IMG_8355.JPG?previews[]=-256-preview@256x234 height=300>
+</div>
+<div class="transparent-box">
+(text-colour:black)[
+patrik
+---
+[[что это?]]
+[[как в нем работать?]]
+[[обратно|start]]
+[[сравнение]]]
+</div>
+
+
+
+:: liberoffice Base {"position":"275,425","size":"100,100"}
+<img
+src=https://ru.yougile.com/user-data/7a9d23f2-3b3b-48cf-9a54-25f5d7e8801d/IMG_8355.JPG?previews[]=-256-preview@256x234 height=300>
+<div class="transparent-box">
+(text-colour:black)[patrik
+---
+1.	Загрузите LibreOffice:
+	•	Перейдите на официальный сайт LibreOffice и выберите подходящую версию для вашей операционной системы.
+	2.	Установите:
+	•	Для Linux: Используйте менеджер пакетов (например, sudo apt install libreoffice-base для Ubuntu).
+Настройка:
+	•	После установки откройте LibreOffice Base через меню приложений.
+	•	При первом запуске выберите “Создать новую базу данных” или “Открыть существующую базу данных”.
+	•	Для подключения к внешним базам данных (например, MySQL или PostgreSQL), перейдите в Файл → Сведения о базе данных и настройте соединение.
+
+[[обратно|установка и настройка]]]
+</div>
+
+
+:: start {"position":"650,250","size":"100,100"}
+</style>
+<img
+src=https://ru.yougile.com/user-data/7a9d23f2-3b3b-48cf-9a54-25f5d7e8801d/IMG_8355.JPG?previews[]=-256-preview@256x234 height=300>
+</div>
+<div class="transparent-box">
+(text-colour:black) [Рад приветствовать $fio в интерактивном уроке по SQLlite.
+
+Что вас итересует?
+---
+[[SQLDBBrowser?]]
+[[Liberoffice Base?]]
+[[установка и настройка]]
+[[основы синтексиса]]
+[[Конец!]]]
+</div>
+
+
+:: Да! {"position":"1025,100","size":"100,100"}
+</style>
+<img
+src=https://ru.yougile.com/user-data/7a9d23f2-3b3b-48cf-9a54-25f5d7e8801d/IMG_8355.JPG?previews[]=-256-preview@256x234 height=300>
+</div>
+<div class="transparent-box">
+(text-colour:black)[Спасибо я старалась! )
+[[дальше]]]
+</div>
+
+
+
+:: Запрос 1 {"position":"700,900","size":"100,100"}
+</style>
+<img
+src=https://ru.yougile.com/user-data/7a9d23f2-3b3b-48cf-9a54-25f5d7e8801d/IMG_8355.JPG?previews[]=-256-preview@256x234 height=300>
+</div>
+<img
+src="https://ru.yougile.com/user-data/82775818-35fe-4f29-98f7-04763eb300d4/photo_2024-12-24_01-23-23.jpg?previews[]=-256-preview@195x367" height=300>
+<div class="transparent-box">
+[[назад|сравнение]]
+</div>
+
+
+:: Запрос 10 {"position":"875,1175","size":"100,100"}
+</style>
+<img
+src=https://ru.yougile.com/user-data/7a9d23f2-3b3b-48cf-9a54-25f5d7e8801d/IMG_8355.JPG?previews[]=-256-preview@256x234 height=300>
+</div>
+<img
+src="https://ru.yougile.com/user-data/37229520-97f8-4201-8cc0-188809f60f4a/photo_2024-12-24_01-23-49.jpg?previews[]=-256-preview@378x351" height=300>
+<div class="transparent-box">
+[[назад|сравнение]]
+</div>
+
+
+:: Запрос 2 {"position":"550,900","size":"100,100"}
+</style>
+<img
+src=https://ru.yougile.com/user-data/7a9d23f2-3b3b-48cf-9a54-25f5d7e8801d/IMG_8355.JPG?previews[]=-256-preview@256x234 height=300>
+</div>
+<img
+src="https://ru.yougile.com/user-data/4fe076cb-145d-43ba-b8ba-6015053a40b4/photo_2024-12-24_01-23-27.jpg?previews[]=-256-preview@182x298" height=300>
+<div class="transparent-box">
+[[назад|сравнение]]
+</div>
+
+
+:: Запрос 3 {"position":"337.5,1025","size":"100,100"}
+</style>
+<img
+src=https://ru.yougile.com/user-data/7a9d23f2-3b3b-48cf-9a54-25f5d7e8801d/IMG_8355.JPG?previews[]=-256-preview@256x234 height=300>
+</div>
+<img
+src="https://ru.yougile.com/user-data/9ee236ac-2a8c-4449-9d88-aac70dabce7f/photo_2024-12-24_01-23-29.jpg?previews[]=-256-preview@210x295" height=300>
+<div class="transparent-box">
+[[назад|сравнение]]
+</div>
+
+
+:: Запрос 4 {"position":"462.5,1025","size":"100,100"}
+</style>
+<img
+src=https://ru.yougile.com/user-data/7a9d23f2-3b3b-48cf-9a54-25f5d7e8801d/IMG_8355.JPG?previews[]=-256-preview@256x234 height=300>
+</div>
+<img
+src="https://ru.yougile.com/user-data/9ee236ac-2a8c-4449-9d88-aac70dabce7f/photo_2024-12-24_01-23-29.jpg?previews[]=-256-preview@210x295" height=300>
+<div class="transparent-box">
+[[назад|сравнение]]
+</div>
+
+
+:: Запрос 5 {"position":"625,1050","size":"100,100"}
+</style>
+<img
+src=https://ru.yougile.com/user-data/7a9d23f2-3b3b-48cf-9a54-25f5d7e8801d/IMG_8355.JPG?previews[]=-256-preview@256x234 height=300>
+</div>
+<img
+src="https://ru.yougile.com/user-data/2d9f690d-8d17-4da6-967c-b318568b31f2/photo_2024-12-24_01-23-35.jpg?previews[]=-256-preview@497x193" height=300>
+<div class="transparent-box">
+[[назад|сравнение]]
+</div>
+
+
+:: Запрос 6 {"position":"775,1000","size":"100,100"}
+</style>
+<img
+src=https://ru.yougile.com/user-data/7a9d23f2-3b3b-48cf-9a54-25f5d7e8801d/IMG_8355.JPG?previews[]=-256-preview@256x234 height=300>
+</div>
+<img
+src="https://ru.yougile.com/user-data/9fb33bcc-1006-4550-8ddb-44b8073857bf/photo_2024-12-24_01-23-38.jpg?previews[]=-256-preview@114x302" height=300>
+<div class="transparent-box">
+[[назад|сравнение]]
+</div>
+
+
+:: Запрос 7 {"position":"875,1025","size":"100,100"}
+</style>
+<img
+src=https://ru.yougile.com/user-data/7a9d23f2-3b3b-48cf-9a54-25f5d7e8801d/IMG_8355.JPG?previews[]=-256-preview@256x234 height=300>
+</div>
+<img
+src="https://ru.yougile.com/user-data/a561ddf4-cb76-4b62-9110-3c5a77a1076a/photo_2024-12-24_01-23-40.jpg?previews[]=-256-preview@236x256" height=300>
+<div class="transparent-box">
+[[назад|сравнение]]
+</div>
+
+
+:: Запрос 8 {"position":"525,1150","size":"100,100"}
+</style>
+<img
+src=https://ru.yougile.com/user-data/7a9d23f2-3b3b-48cf-9a54-25f5d7e8801d/IMG_8355.JPG?previews[]=-256-preview@256x234 height=300>
+</div>
+<img
+src="https://ru.yougile.com/user-data/7b70003f-1ff9-478f-b7dd-ecf383034ccf/photo_2024-12-24_01-23-43.jpg?previews[]=-256-preview@233x311" height=300>
+<div class="transparent-box">
+[[назад|сравнение]]
+</div>
+
+
+:: Запрос 9 {"position":"725,1150","size":"100,100"}
+</style>
+<img
+src=https://ru.yougile.com/user-data/7a9d23f2-3b3b-48cf-9a54-25f5d7e8801d/IMG_8355.JPG?previews[]=-256-preview@256x234 height=300>
+</div>
+<img
+src="https://ru.yougile.com/user-data/2bca4df2-1c76-4a9a-8086-91ff90fcd5f6/photo_2024-12-24_01-23-46.jpg?previews[]=-256-preview@197x357" height=300>
+<div class="transparent-box">
+[[назад|сравнение]]
+</div>
+
+
+:: Запрос1 {"position":"925,625","size":"100,100"}
+</style>
+<img
+src=https://ru.yougile.com/user-data/7a9d23f2-3b3b-48cf-9a54-25f5d7e8801d/IMG_8355.JPG?previews[]=-256-preview@256x234 height=300>
+</div>
+<img
+src="https://yougile.com/user-data/37c9de90-2609-4bdf-a0f7-12505c349307/photo_2024-12-24_01-09-44.jpg-256-preview@141x311.png" height=300>
+<div class="transparent-box">
+[[назад|сравненя]]
+</div>
+
+
+:: Запрос10 {"position":"1275,725","size":"100,100"}
+</style>
+<img
+src=https://ru.yougile.com/user-data/7a9d23f2-3b3b-48cf-9a54-25f5d7e8801d/IMG_8355.JPG?previews[]=-256-preview@256x234 height=300>
+</div>
+<img
+src="https://yougile.com/user-data/505b4fc0-f2be-476b-a430-7c839016494a/photo_2024-12-24_01-10-15.jpg-256-preview@319x238.png" height=300>
+<div class="transparent-box">
+[[назад|сравненя]]
+</div>
+
+
+:: Запрос2 {"position":"837.5,850","size":"100,100"}
+</style>
+<img
+src=https://ru.yougile.com/user-data/7a9d23f2-3b3b-48cf-9a54-25f5d7e8801d/IMG_8355.JPG?previews[]=-256-preview@256x234 height=300>
+</div>
+<img
+src="https://yougile.com/user-data/beb8799c-260f-4edb-955d-719327b0e174/photo_2024-12-24_01-09-48.jpg-256-preview@261x229.png" height=300>
+<div class="transparent-box">
+[[назад|сравненя]]
+</div>
+
+
+:: Запрос3 {"position":"962.5,850","size":"100,100"}
+</style>
+<img
+src=https://ru.yougile.com/user-data/7a9d23f2-3b3b-48cf-9a54-25f5d7e8801d/IMG_8355.JPG?previews[]=-256-preview@256x234 height=300>
+</div>
+<img
+src="https://yougile.com/user-data/d3004344-52f6-425a-ad3e-ce10b09eb62b/photo_2024-12-24_01-09-51.jpg-256-preview@299x243.png" height=300>
+<div class="transparent-box">
+[[назад|сравненя]]
+</div>
+
+
+:: Запрос4 {"position":"1087.5,850","size":"100,100"}
+</style>
+<img
+src=https://ru.yougile.com/user-data/7a9d23f2-3b3b-48cf-9a54-25f5d7e8801d/IMG_8355.JPG?previews[]=-256-preview@256x234 height=300>
+</div>
+<img
+src="https://yougile.com/user-data/d3004344-52f6-425a-ad3e-ce10b09eb62b/photo_2024-12-24_01-09-51.jpg-256-preview@299x243.png" height=300>
+<div class="transparent-box">
+[[назад|сравненя]]
+</div>
+
+
+:: Запрос5 {"position":"1225,850","size":"100,100"}
+</style>
+<img
+src=https://ru.yougile.com/user-data/7a9d23f2-3b3b-48cf-9a54-25f5d7e8801d/IMG_8355.JPG?previews[]=-256-preview@256x234 height=300>
+</div>
+<img
+src="https://yougile.com/user-data/0c6684a6-11cb-4be1-b623-9562dbb406cd/photo_2024-12-24_01-09-59.jpg-256-preview@268x102.png" height=300>
+<div class="transparent-box">
+[[назад|сравненя]]
+</div>
+
+
+:: Запрос6 {"position":"1337.5,850","size":"100,100"}
+</style>
+<img
+src=https://ru.yougile.com/user-data/7a9d23f2-3b3b-48cf-9a54-25f5d7e8801d/IMG_8355.JPG?previews[]=-256-preview@256x234 height=300>
+</div>
+<img
+src="https://yougile.com/user-data/9809470b-6a50-4f52-a454-24c0608dd9ef/photo_2024-12-24_01-10-02.jpg-256-preview@207x256.png" height=300>
+<div class="transparent-box">
+[[назад|сравненя]]
+</div>
+
+
+:: Запрос7 {"position":"1462.5,850","size":"100,100"}
+</style>
+<img
+src=https://ru.yougile.com/user-data/7a9d23f2-3b3b-48cf-9a54-25f5d7e8801d/IMG_8355.JPG?previews[]=-256-preview@256x234 height=300>
+</div>
+<img
+src="https://yougile.com/user-data/5ec64387-f0d7-4d7b-b4ce-f99907c8cf21/photo_2024-12-24_01-10-06.jpg-256-preview@254x256.png" height=300>
+<div class="transparent-box">
+[[назад|сравненя]]
+</div>
+
+
+:: Запрос8 {"position":"1087.5,975","size":"100,100"}
+</style>
+<img
+src=https://ru.yougile.com/user-data/7a9d23f2-3b3b-48cf-9a54-25f5d7e8801d/IMG_8355.JPG?previews[]=-256-preview@256x234 height=300>
+</div>
+<img
+src="https://yougile.com/user-data/08ae96f7-5e41-4ece-89e6-8e502a402882/photo_2024-12-24_01-10-09.jpg-256-preview@256x255.png" height=300>
+<div class="transparent-box">
+[[назад|сравненя]]
+</div>
+
+
+:: Запрос9 {"position":"1212.5,975","size":"100,100"}
+</style>
+<img
+src=https://ru.yougile.com/user-data/7a9d23f2-3b3b-48cf-9a54-25f5d7e8801d/IMG_8355.JPG?previews[]=-256-preview@256x234 height=300>
+</div>
+<img
+src="https://yougile.com/user-data/872ac45b-26ec-4f09-9c66-27c80de14e08/photo_2024-12-24_01-10-12.jpg-256-preview@256x249.png" height=300>
+<div class="transparent-box">
+[[назад|сравненя]]
+</div>
+
+
+:: Конец! {"position":"825,50","size":"100,100"}
+</style>
+<img
+src=https://ru.yougile.com/user-data/7a9d23f2-3b3b-48cf-9a54-25f5d7e8801d/IMG_8355.JPG?previews[]=-256-preview@256x234 height=300>
+</div>
+<div class="transparent-box">
+(text-colour:black)[patrikНу что тебе понравилось?
+---
+[[Да!]]
+[[Нет!]]]
+</div>
+
+
+:: Нет! {"position":"1025,225","size":"100,100"}
+</style>
+<img
+src=https://ru.yougile.com/user-data/7a9d23f2-3b3b-48cf-9a54-25f5d7e8801d/IMG_8355.JPG?previews[]=-256-preview@256x234 height=300>
+</div>
+<div class="transparent-box">
+(text-colour:black)[Прости, в следующий раз я сделаю получше! (
+[[дальше]]]
+
+</div>
+
+
+:: вывод {"position":"550,575","size":"100,100"}
+<img
+src=https://ru.yougile.com/user-data/7a9d23f2-3b3b-48cf-9a54-25f5d7e8801d/IMG_8355.JPG?previews[]=-256-preview@256x234 height=300>
+<div class="transparent-box">
+(text-colour:black)[
+patrik
+---
+Вывод:
+	•	DB Browser for SQLite: Прост в установке и сразу готов к использованию для работы с SQLite.
+	•	LibreOffice Base: Устанавливается как часть LibreOffice, позволяет создавать и управлять базами данных с графическим интерфейсом.
+[[обратно|установка и настройка]]]
+</div>
+
+
+
+:: дальше {"position":"1150,225","size":"100,100"}
+</style>
+<img
+src=https://ru.yougile.com/user-data/7a9d23f2-3b3b-48cf-9a54-25f5d7e8801d/IMG_8355.JPG?previews[]=-256-preview@256x234 height=300>
+</div>
+<div class="transparent-box">
+(text-colour:black)[Поздравляю ты узнал, как работать с двумя приложениями,в которых можно создать базу данных]
+</div>
+
+
+:: как в нем Работать? {"position":"1000,425","size":"100,100"}
+</style>
+<img
+src=https://ru.yougile.com/user-data/7a9d23f2-3b3b-48cf-9a54-25f5d7e8801d/IMG_8355.JPG?previews[]=-256-preview@256x234 height=300>
+</div>
+<div class="transparent-box">
+(text-colour:black)[
+patrik
+---
+1. Создание или открытие базы данных
+	•	Создать: Выберите Создать новую базу данных и следуйте инструкциям.
+	•	Открыть: Выберите Открыть существующую базу данных.
+2. Создание таблиц
+	•	Перейдите на вкладку Таблицы → Создать таблицу в режиме конструктора.
+	•	Укажите столбцы и их типы, затем сохраните таблицу.
+3. Заполнение таблиц
+	•	Выберите таблицу на вкладке Таблицы и нажмите Открыть для ввода данных.
+	•	Введите данные и сохраните изменения.
+4. Создание запросов
+	•	Перейдите на вкладку Запросы → Создать запрос в режиме конструктора.
+	•	Выберите таблицы и поля, задайте условия и выполните запрос.
+5. Создание форм
+	•	Перейдите на вкладку Формы → Создать форму в режиме конструктора.
+	•	Выберите поля для ввода данных.
+6. Создание отчётов
+	•	Перейдите на вкладку Отчёты → Создать отчёт в режиме конструктора.
+	•	Настройте поля для отчёта.
+7. Сохранение и экспорт
+	•	Сохраните базу через Файл → Сохранить.
+	•	Экспортируйте данные в форматах CSV, PDF и других.
+LibreOffice Base — удобный инструмент для создания и управления базами данных с графическим интерфейсом.]
+[[обратно|Liberoffice Base?]]
+</div>
+
+
+:: как в нем работать? {"position":"800,650","size":"100,100"}
+</style>
+<img
+src=https://ru.yougile.com/user-data/7a9d23f2-3b3b-48cf-9a54-25f5d7e8801d/IMG_8355.JPG?previews[]=-256-preview@256x234 height=300>
+</div>
+<div class="transparent-box">
+(text-colour:black)[
+patrik
+---
+1. Создание или открытие базы данных
+	•	Новая база данных: File → New Database, выберите место и имя файла.
+	•	Открыть базу данных: File → Open Database, выберите файл.
+2. Работа с таблицами
+	•	Создание таблицы: Перейдите на Database Structure → Create Table, добавьте столбцы.
+	•	Редактирование/удаление: Щёлкните правой кнопкой по таблице в Database Structure.
+3. Просмотр и редактирование данных
+	•	Перейдите на Browse Data, выберите таблицу, редактируйте данные или добавьте новые записи.
+4. Выполнение SQL-запросов
+	•	Перейдите на Execute SQL, введите запрос и нажмите Execute для выполнения.
+5. Импорт и экспорт данных
+	•	Импорт: File → Import (например, CSV).
+	•	Экспорт: File → Export (например, CSV).
+6. Сохранение изменений
+	•	Не забудьте сохранить изменения через File → Save Database.
+Этот инструмент удобен для работы с SQLite без использования командной строки.]
+[[обратно|SQLDBBrowser?]]
+</div>
+
+
+:: начало {"position":"650,25","size":"100,100"}
+(set: $fio to(prompt: "Как вас зовут?", ""))
+
+</style>
+<img
+src=https://ru.yougile.com/user-data/7a9d23f2-3b3b-48cf-9a54-25f5d7e8801d/IMG_8355.JPG?previews[]=-256-preview@256x234 height=300>
+<div class="transparent-box">
+(text-colour:black)[
+patrik
+---
+[[отлично идем дальше|start]]]
+</div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+
+
+:: общее сравнение {"position":"1475,575","size":"100,100"}
+</style>
+<img
+src=https://ru.yougile.com/user-data/7a9d23f2-3b3b-48cf-9a54-25f5d7e8801d/IMG_8355.JPG?previews[]=-256-preview@256x234 height=300>
+</div>
+<div class="transparent-box">
+(text-colour:black)[Если вы хотите работать непосредственно с SQL и использовать все возможности SQLite, DB Browser for SQLite - это отличный выбор.
+Если вы предпочитаете графический интерфейс и не хотите углубляться в специфику SQL синтаксиса для простых запросов, LibreOffice Base может быть удобнее.
+Для более сложных запросов, требующих специфических функций SQLite, лучше использовать DB Browser, чтобы быть уверенным, что ваш код будет работать корректно. При написании сложных запросов, как правило, лучше проверять их работоспособность в DB Browser.
+В любом случае, понимание основ SQL поможет вам эффективно использовать оба инструмента. Если вы пишете запросы непосредственно в редакторе SQL в LibreOffice Base, то в целом синтаксис SQLite в этих двух инструментах будет совпадать.]
+[[назад|start]]
+</div>
+
+
+:: определение {"position":"875,425","size":"100,100"}
+</style>
+<img
+src=https://ru.yougile.com/user-data/7a9d23f2-3b3b-48cf-9a54-25f5d7e8801d/IMG_8355.JPG?previews[]=-256-preview@256x234 height=300>
+</div>
+<div class="transparent-box">
+(text-colour:black)[
+patrik
+---
+LibreOffice Base — это компонент набора LibreOffice для работы с базами данных. Он позволяет создавать, управлять и работать с базами данных, а также создавать формы для ввода данных, отчёты и запросы.
+Основные возможности:
+	•	Создание и управление базами данных: Поддерживает различные типы баз данных, включая встроенные файлы HSQLDB и подключения к внешним базам (например, MySQL, PostgreSQL).
+	•	Запросы: Создание SQL-запросов для выборки, обновления или удаления данных.
+	•	Формы: Создание форм для удобного ввода данных.
+	•	Отчёты: Генерация отчётов на основе данных.
+	•	Интерфейс: Графический интерфейс для работы с данными, аналогичный Microsoft Access.
+LibreOffice Base подходит для пользователей, которым нужен бесплатный и функциональный инструмент для работы с базами данных, но без сложных настроек.]
+[[обратно|Liberoffice Base?]]
+</div>
+
+
+:: основы синтексиса {"position":"475,175","size":"100,100"}
+<img
+src=https://ru.yougile.com/user-data/7a9d23f2-3b3b-48cf-9a54-25f5d7e8801d/IMG_8355.JPG?previews[]=-256-preview@256x234 height=300>
+<div class="transparent-box">
+(text-colour:black)[
+patrik
+---
+Основы синтаксиса SQL
+•	SELECT — для выбора данных.
+	•	INSERT INTO — для добавления данных.
+	•	UPDATE — для обновления данных.
+	•	DELETE — для удаления данных.
+	•	WHERE — для фильтрации данных.
+	•	CREATE TABLE — для создания таблиц.
+	•	JOIN — для объединения данных из нескольких таблиц.
+	•	LIMIT — для ограничения количества результатов.
+С этим набором команд можно уже начать работать с базами данных в SQL!
+[[обратно|start]]]
+</div>
+
+
+
+
+:: сравнение {"position":"650,775","size":"100,100"}
+</style>
+<img
+src=https://ru.yougile.com/user-data/7a9d23f2-3b3b-48cf-9a54-25f5d7e8801d/IMG_8355.JPG?previews[]=-256-preview@256x234 height=300>
+</div>
+<div class="transparent-box">
+(text-colour:black)[в этом ответвлении мы с тобой рассмотрим запросы которые сделала в либер офисе
+[[Запрос 1]]
+[[Запрос 2]]
+[[Запрос 3]]
+[[Запрос 4]]
+[[Запрос 5]]
+[[Запрос 6]]
+[[Запрос 7]]
+[[Запрос 8]]
+[[Запрос 9]]
+[[Запрос 10]]
+[[общее сравнение]]
+[[обратно|SQLDBBrowser?]]]
+</div>
+
+
+:: сравненя {"position":"1150,600","size":"100,100"}
+</style>
+<img
+src=https://ru.yougile.com/user-data/7a9d23f2-3b3b-48cf-9a54-25f5d7e8801d/IMG_8355.JPG?previews[]=-256-preview@256x234 height=300>
+</div>
+<div class="transparent-box">
+(text-colour:black)[в этом ответвлении мы с тобой рассмотрим запросы которые сделала в либер офисе
+[[Запрос1]]
+[[Запрос2]]
+[[Запрос3]]
+[[Запрос4]]
+[[Запрос5]]
+[[Запрос6]]
+[[Запрос7]]
+[[Запрос8]]
+[[Запрос9]]
+[[Запрос10]]
+[[общее сравнение]]
+[[обратно|Liberoffice Base?]]]
+</div>
+
+
+:: установка и настройка {"position":"500,375","size":"100,100"}
+<img
+src=https://ru.yougile.com/user-data/7a9d23f2-3b3b-48cf-9a54-25f5d7e8801d/IMG_8355.JPG?previews[]=-256-preview@256x234 height=300>
+<div class="transparent-box">
+(text-colour:black)[
+patrik
+---
+[[DBbrowser]]
+[[liberoffice Base]]
+[[вывод]]]
+(text-colour:black)[[[обратно|start]]]
+
+</div>
+
+
+:: что это? {"position":"675,650","size":"100,100"}
+</style>
+<img
+src=https://ru.yougile.com/user-data/7a9d23f2-3b3b-48cf-9a54-25f5d7e8801d/IMG_8355.JPG?previews[]=-256-preview@256x234 height=300>
+</div>
+<div class="transparent-box">
+(text-colour:black)[
+patrik
+---
+SQL DB Browser (или DB Browser for SQLite) — бесплатное приложение для работы с базами данных SQLite. Оно позволяет:
+	•	Просматривать и редактировать данные в таблицах.
+	•	Создавать и изменять таблицы.
+	•	Выполнять SQL-запросы.
+	•	Импортировать и экспортировать данные (например, в CSV или SQL).
+Идеально подходит для пользователей и разработчиков, работающих с SQLite, благодаря простому графическому интерфейсу.]
+[[обратно|SQLDBBrowser?]]
+</div>
+
+
+:: StoryStylesheet [stylesheet]
+.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+tw-link
+{
+  color:#ffffff;
+}
+
+tw-story
+{
+  font-family:Arial;
+  font-size: 22px;
+}
+
+tw-story{
+  background-image:url("https://avatars.mds.yandex.net/i?id=a00186419c7f9b9dc44270f22a6cef59_l-4866844-images-thumbs&n=13");
+  background-size:cover;
+}
+
+.transparent-box {
+border: 5px solid rgba(0, 0, 0, 0.5);
+border-radius: 10px;
+padding: 20px;
+background-color: rgba(255, 255, 255, 0.8);
+}
+
