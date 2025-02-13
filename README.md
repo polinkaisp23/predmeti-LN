@@ -17,5 +17,9 @@ https://drive.google.com/drive/folders/1Qf3lZ77MRr3ipwanGzGiQgvPr6Cx-3B_?usp=dri
 | -------- |
 | https://docs.google.com/document/d/1UYPte6QcsXK6c8Ts76YiN4kMGIoCTICywq5fAPM7rvU/edit?usp=drive_link |
 
+| утановка kali и owasp |
+| -------- |
+| https://docs.google.com/document/d/1ciRds3MhAaGyv4ssQ4i_9_ZMST239ZvnPD8qGvknNfA/edit?tab=t.0 |
+
 
 
